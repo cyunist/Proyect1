@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+/* Cambio de link color on hover */
+li a:hover {
+    background-color: #282424;
+}
+p{
+    font-size: 20px;
+}
