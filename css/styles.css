@@ -34,5 +34,33 @@ li a:hover {
     background-color: #282424;
 }
 p{
-    font-size: 20px;
+    font-size: 40px;
+    text-align: center;
 }
+
+#container {
+    border: solid blue;
+    height: 250px;
+    width: 900px;
+    position: relative;
+  }
+  #image {
+    position: absolute;
+    left: 10%;
+    top: 0;
+  }
+  #text {
+    z-index: 100;
+    position: absolute;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+    left: 55%;
+    top: 0%;
+    text-align: center
+  }
+
+.cajas_conteiner{
+display: flex;
+flex-wrap: wrap;
+  }
