@@ -7,12 +7,13 @@ h1{
     font-size: 20px;
     text-align: center;
 }
-
+/* barra de navegacion */
 .navbar-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -29,27 +30,29 @@ li a{
     text-decoration: none;
     
 }
+
 /* Cambio de link color on hover */
 li a:hover {
     background-color: #282424;
 }
-p{
+
+.title{
     font-size: 40px;
     text-align: center;
 }
-
+.parrafo{
+    font-size: 30px;
+    text-align: center;
+}
+/* bicicleta de montaña */
 #container {
     border: solid blue;
-    height: 250px;
+    height: 240px;
     width: 900px;
     position: relative;
   }
-  #image {
-    position: absolute;
-    left: 10%;
-    top: 0;
-  }
-  #text {
+
+#text {
     z-index: 100;
     position: absolute;
     color: green;
@@ -59,8 +62,83 @@ p{
     top: 0%;
     text-align: center
   }
+  #image {
+    position: absolute;
+    left: 10%;
+    top: 0;
+  }
 
-.cajas_conteiner{
+/* bicicleta de gimnasio */
+#container-g {
+    border: solid blue;
+    height: 530px;
+    width: 1250px;
+    position: relative;
+  }
+  #text-g {
+    z-index: 100;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    left: 45%;
+    top: 15%;
+    text-align: center
+  }
+  #image-g {
+    position: absolute;
+    left: 8%;
+    top: 10;
+  }
+  
+  /* pide de pagina */
+
+.pie_pagina{
+    background-color: black;
+    padding-top: 3rem;
+    background-size: cover;
+    background-position: center;
+
+}
+.pie_pagina .cajas_conteiner{
 display: flex;
 flex-wrap: wrap;
-  }
+}
+
+.pie_pagina .cajas_conteiner .caja{
+flex: 1 1 25rem;
+}
+.pie_pagina .cajas_conteiner .caja h3{
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: wheat;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+.pie_pagina .cajas_conteiner .caja p{
+    font-size: 1.0rem;
+    padding: .5rem 0;
+    color:white
+}
+.pie_pagina .cajas_conteiner .caja a{
+    display: block;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color:white
+}
+.pie_pagina .cajas_conteiner .caja a:hover{
+    text-decoration: underline;
+}
+.pie_pagina .cajas_conteiner .caja .i{
+    margin: .5rem 0;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background: whitesmoke;
+    color: white;
+    font-size: 1.8rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+   align-items: center;
+}
+
