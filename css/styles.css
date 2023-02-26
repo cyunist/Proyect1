@@ -46,20 +46,20 @@ li a:hover {
 }
 /* bicicleta de montaña */
 #container {
-    border: solid blue;
+  /*  border: solid blue;   */
     height: 240px;
-    width: 900px;
+    width: 1250px;
     position: relative;
   }
 
 #text {
     z-index: 100;
     position: absolute;
-    color: green;
+    color: black;
     font-size: 15px;
     font-weight: bold;
-    left: 55%;
-    top: 0%;
+    left: 45%;
+    top: 20%;
     text-align: center
   }
   #image {
@@ -70,7 +70,7 @@ li a:hover {
 
 /* bicicleta de gimnasio */
 #container-g {
-    border: solid blue;
+  /*  border: solid blue;   */
     height: 530px;
     width: 1250px;
     position: relative;
@@ -82,7 +82,7 @@ li a:hover {
     font-size: 15px;
     font-weight: bold;
     left: 45%;
-    top: 15%;
+    top: 30%;
     text-align: center
   }
   #image-g {
@@ -91,6 +91,102 @@ li a:hover {
     top: 10;
   }
   
+/* bicicleta de gravel */
+
+#container-gr {
+/*  border: solid blue; */
+  height: 300px;
+  width: 1250px;
+  position: relative;
+}
+#text-gr {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  left: 35%;
+  top: 25%;
+  text-align: center
+}
+#image-gr {
+  position: absolute;
+  left: 8%;
+  top: 10;
+}
+
+ /* bicicleta electrica */
+
+#container-e {
+/*  border: solid blue; */
+  height: 350px;
+  width: 1250px;
+  position: relative;
+}
+#text-e {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  left: 38%;
+  top: 25%;
+  text-align: center
+}
+#image-e {
+  position: absolute;
+  left: 8%;
+  top: 10;
+}
+  
+/* bicicleta carreras */
+
+#container-c {
+/*  border: solid blue;  */
+  height: 470px;
+  width: 1250px;
+  position: relative;
+}
+#text-c {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  left: 38%;
+  top: 25%;
+  text-align: center
+}
+#image-c {
+  position: absolute;
+  left: 8%;
+  top: 10;
+}
+ 
+/* bicicleta de paseo */
+
+#container-p {
+/*  border: solid blue; */
+  height: 350px;
+  width: 1250px;
+  position: relative;
+}
+#text-p {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  left: 38%;
+  top: 25%;
+  text-align: center
+}
+#image-p {
+  position: absolute;
+  left: 8%;
+  top: 10;
+}
+
   /* pide de pagina */
 
 .pie_pagina{
